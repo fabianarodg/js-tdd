@@ -1,0 +1,24 @@
+{
+  "name": "js-tdd",
+  "version": "1.0.0",
+  "description": "curso de js com tdd",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabianarodg/js-tdd.git"
+  },
+  "keywords": [
+    "tdd",
+    "js",
+    "es6"
+  ],
+  "author": "Fabiana Rodrigues <bia.fabiana075@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabianarodg/js-tdd/issues"
+  },
+  "homepage": "https://github.com/fabianarodg/js-tdd#readme"
+}
