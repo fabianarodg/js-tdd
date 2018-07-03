@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>03- Const</title>
+</head>
+<body>
+    <script>
+        const person = {
+            name: 'John',
+            age: 2
+        }; //Uma vez atribuído seu valor, você não pode redeclarar com valor diferente
+        console.log(person);
+        person.age = 40;
+
+        console.log(person);
+
+        //esta é a forma de tornar const imutável. A partir daqui, o objeto fica inalterável
+        Object.freeze(person);
+        console.log(person);
+        person.name = 'Jack';
+        console.log(person);
+
+    
+    </script>
+</body>
+</html>

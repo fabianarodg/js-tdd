@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>02- Let</title>
+</head>
+<body>
+    <script>
+        var animal; //Global, a menos que esteja dentro de function
+        let animal; //Gera um erro pois você não pode definir variaveis de mesmo nome no mesmo escopo
+
+        function getAnimal() {
+            let animal; //Este convive com o var animal tranquilamente pois são escopos diferentes.
+        }
+    </script>
+</body>
+</html>
