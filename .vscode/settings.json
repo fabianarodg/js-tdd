@@ -1,0 +1,5 @@
+{
+    "diffEditor.renderSideBySide": false,
+    "editor.cursorBlinking": "expand",
+    "editor.cursorStyle": "line-thin"
+}
