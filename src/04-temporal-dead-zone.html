@@ -4,16 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>03- Temporal Dead Zone</title>
+    <title>04- Temporal Dead Zone</title>
 </head>
 <body>
     <script>
         //por padrão, o JS le todas as variáveis no código e declara no início do script.
         // O exemplo abaixo dá undefined, pq mesmo q já esteja declarada, o JS n conhece ainda o valor que foi atribuido depois
+        //Ele só faz isso com var. Com let e const dá erro.
         //HOISTING
         console.log(cat);
         var cat = 'meow';
         // ---------------------------------------------
+        const name = 'John';
+        console.log(name);
+        // ---------------------------------------------
+        let age = 25;
+        console.log(age);
 
     </script>
 </body>
